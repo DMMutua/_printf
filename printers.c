@@ -63,7 +63,7 @@ int _print_a_integer(va_list args)
 		n = m;
 		count += 1;
 	}
-	while (n > 9);
+	while (n > 9)
 	{
 		n = n / 10;
 		count++;
